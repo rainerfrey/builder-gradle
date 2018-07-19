@@ -3,8 +3,8 @@ pipeline {
         label "jenkins-jx-base"
     }
     environment {
-        ORG         = 'jenkinsxio'
-        APP_NAME    = 'builder-gradle'
+        ORG         = 'rainerfrey'
+        APP_NAME    = 'builder-gradle-java10'
     }
     stages {
         stage('CI Build and push snapshot') {
